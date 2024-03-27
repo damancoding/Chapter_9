@@ -1,9 +1,11 @@
 #Sorted Golf = Selection sort
+#sorting in the early beginning b/c the file won't display nor work properly
 #****************************************
 golfScore = []
 def golf_Course():
     for i in range(10):
         scores = int(input("Please enter 10 golf scores here, line after line: "))
+        golfScore.sort()
         golfScore.append(scores)
 
     startScan = 0
